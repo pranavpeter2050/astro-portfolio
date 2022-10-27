@@ -1,37 +1,34 @@
 {
-    "title": "Chris Bongers | Senior Full Stack Developer",
-    "description": "Chris Bongers - Portfolio, Full stack developer",
-    "url": "https://chrisbongers.com/",
-    "author": "Chris Bongers",
-    "profile_pic": "/assets/chris.jpg",
+    "title": "Pranav Peter | Full Stack Developer",
+    "description": "Pranav Peter - Portfolio, Full stack developer",
+    "url": "https://pranavpeter.io/",
+    "author": "Pranav Peter",
+    "profile_pic": "/assets/profile_pic.jpg",
     "resume": "/assets/resume.pdf",
     "nav": [
         {"link": "#skills", "name": "Skills"},
         {"link": "#work", "name": "Work"},
-        {"link": "#footer", "name": "Contact"},
-        {"link": "https://daily-dev-tips.com/", "name": "Blog", "target": "_blank"}
+        {"link": "#footer", "name": "Contact"}
     ],
     "skills": {
         "comfortable": [
             {"name": "HTML5", "icon": "html5"},
             {"name": "CSS3", "icon": "css3"},
             {"name": "JavaScript", "icon": "javascript"},
-            {"name": "TypeScript", "icon": "typescript"},
             {"name": "PHP", "icon": "php"},
             {"name": "Laravel", "icon": "laravel"},
-            {"name": "Angular", "icon": "angularjs"},
-            {"name": "Ionic", "icon": "ionic", "type": "original"},
+            {"name": "Symfony", "icon": "symfony"},
+            {"name": "Wordpress", "icon": "wordpress"},
+            {"name": "Vue", "icon": "vuejs"},
             {"name": "Node.js", "icon": "nodejs"},
             {"name": "Git", "icon": "git"},
             {"name": "MySQL", "icon": "mysql"},
-            {"name": "SASS", "icon": "sass"},
-            {"name": "Bootstrap", "icon": "bootstrap"},
-            {"name": "Tailwind", "icon": "tailwindcss"}
+            {"name": "Bootstrap", "icon": "bootstrap"}
         ],
         "mastering": [
             {"name": "Flutter", "icon": "flutter"},
-            {"name": "React", "icon": "react"},
-            {"name": "Next.js", "icon": "nextjs"}
+            {"name": "Astro", "icon": "astro"}
+
         ]
     },
     "work": [
@@ -60,79 +57,19 @@
         }
     ],
     "journey": {
-        "2030": [
+        "2022": [
             {
-                "title": "Senior full stack remote developer ☁️",
-                "description": "It's my dream to be a senior full-stack developer who can work remotely."
-            }
-        ],
-        "2021": [
-            {
-                "title": "Got married 🍾",
-                "description": "We got married in the mountains of South Africa"
-            },
-            {
-                "title": "Blogged for a year non-stop",
-                "description": "Every single day one article!"
+                "title": "Long way to go 🥳",
+                "description": "You might think, not much happening right now huh.. wait it's a work in progress!"
             }
         ],
         "2020": [
             {
-                "title": "Got engaged 💍",
-                "description": "My beautiful wife Nicole said, Yes!"
-            },
-            {
-                "title": "Started daily-dev-tips 🚀",
-                "description": "I started my blog, where I write daily development tips to help new people!"
-            },
-            {
-                "title": "Moved back to South Africa ✈️",
-                "description": "This time for Laméco I moved back to South-Africa and fell in love with the country again."
-            }
-        ],
-        "2016": [
-            {
-                "title": "Senior developer 💪🏻",
-                "description": "I started as a senior developer at Laméco, working mainly on Symfony, Angular, and node.js projects. I also was responsible for mentoring students and new employees."
-            }
-        ],
-        "2015": [
-            {
-                "title": "Full-time app developer 📱",
-                "description": "I got hired by Bengees, a mobile app startup, to be the lead developer on an Ionic app!"
-            }
-        ],
-        "2014": [
-            {
-                "title": "First time to South-Africa 🇿🇦",
-                "description": "A nice perk of Engagement Factory was a work trip to South Africa, little did I know I would fall in love with the country."
-            },
-            {
-                "title": "Medior developer at engagement factory 🤓",
-                "description": "My hard work paid off, and I became a Medior Developer at Engagement Factory, picked up a lot of JavaScript, PHP and Marketing skills."
-            }
-        ],
-        "2013": [
-            {
-                "title": "Started my own company 🤯",
-                "description": "The moment I Graduated I also started my own company, which I still have on the side."
-            },
-            {
-                "title": "Graduated at Fontys 🎓",
-                "description": "Graduated the communication and multi-media Design course at Fontys Eindhoven."
-            }
-        ],
-        "2012": [
-            {
-                "title": "Won the Atos IT challenge 🏆",
-                "description": "In 2012 we entered the ATOS IT challenge, our team \"MultiLens\" finished first in this worldwide competition. My role in this project was project managing, development en thinking on features, and the global idea."
-            },
-            {
                 "title": "First tech job 🥳",
-                "description": "Started working as a PHP Developer for ScriptMotion, programming in CodeIgniter."
+                "description": "Started working as a Software Developer for Thoughtline Technologies, programming in various PHP frameworks."
             }
         ],
-        "1989": [
+        "1998": [
             {
                 "title": "I was born 👶",
                 "description": "This is where the whole journey started."
@@ -162,27 +99,12 @@
     "socials": 
         [
             {
-                "link": "https://codepen.io/rebelchris",
-                "title": "Codepen",
-                "icon": "codepen"
-            },
-            {
-                "link": "https://twitter.com/DailyDevTips1",
-                "title": "Twitter",
-                "icon": "twitter"
-            },
-            {
-                "link": "https://www.linkedin.com/in/chrisbongers/",
+                "link": "https://www.linkedin.com/in/pranav-peter-31365120a/",
                 "title": "LinkedIn",
                 "icon": "linkedin"
             },
             {
-                "link": "https://www.facebook.com/chris.bongers.92",
-                "title": "Facebook",
-                "icon": "facebook"
-            },
-            {
-                "link": "https://github.com/rebelchris",
+                "link": "https://github.com/pranavpeter2050",
                 "title": "GitHub",
                 "icon": "github"
             }
