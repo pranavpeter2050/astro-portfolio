@@ -7,7 +7,9 @@ header {
   z-index: 1;
   &.active {
     backdrop-filter: saturate(180%) blur(20px);
-    background: rgba(20, 33, 61, 0.9);
+    // background: rgba(20, 33, 61, 0.9);
+    background: var(--color-bg-transparent);
+    // background: var(--color-bg-dark-transparent);
   }
   ul {
     padding: 0;
@@ -22,7 +24,8 @@ header {
       list-style: none;
       a {
         padding: 1rem;
-        color: #fff;
+        color: var(--color-text);
+        // color: var(--color-text-dark);
         text-decoration: none;
       }
     }

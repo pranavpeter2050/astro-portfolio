@@ -1,11 +1,23 @@
 // Base
 :root {
-  --color-purple: #14213d;
+  --color-darkblue: #14213d;
   --color-orange: #fca311;
+  --color-purple: #3e194c;
+  // --color-purple: #712f8b; //#59226e //3e194c
+  --color-bg: #e8e6e9;
+  --color-text: #59226e;
+  --color-bg-dark: #59226e;
+  --color-text-dark: #e8e6e9;
+  // --color-bg-transparent: rgba(206, 205, 206, 0.9);
+  --color-bg-transparent: rgba(212, 211, 213, 0.9);
+  --color-bg-dark-transparent: rgba(62, 25, 76, 0.9);
 }
 body {
-  background: var(--color-purple);
-  color: #fff;
+  // background: var(--color-purple);
+  background: var(--color-bg);
+  // background: var(--color-bg-dark);
+  color: var(--color-text);
+  // color: var(--color-text-dark);
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.5;
   scroll-behavior: smooth;
