@@ -20,6 +20,8 @@ header {
     justify-content: flex-end;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
     li {
       list-style: none;
       a {
@@ -27,6 +29,36 @@ header {
         color: var(--color-text);
         // color: var(--color-text-dark);
         text-decoration: none;
+      }
+
+      .theme-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: .5em;
+        padding: .43em .67em .23em .67em;
+        border-radius: 99em;
+        background-color: var(--theme-switch-bg);
+        outline: 1px solid transparent;
+        
+        label {
+          position: relative;
+          // display: flex;
+          // align-items: center;
+          // justify-content: center;
+          opacity: .5;
+          cursor: pointer;
+        }
+        .checked {
+          color: var(--color-orange);
+          opacity: 1;
+        }
+
+        input {
+          position: absolute;
+          opacity: 0;
+          inset: 0;
+          z-index: -1;
+        }
       }
     }
   }

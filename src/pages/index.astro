@@ -13,7 +13,7 @@ import Footer from '../components/Footer.astro';
   <head>
     <MainHead />
   </head>
-  <body>
+  <body class="dark-theme">
     <Header client:load />
     <main>
     <Intro />
@@ -33,3 +33,17 @@ main {
   margin: 0 auto;
 }
 </style>
+<script>
+  var light_theme = document.getElementById("light_theme");
+  light_theme.onclick = function() {
+    document.body.classList.remove("dark-theme");
+    light_theme.classList.add("checked");
+    dark_theme.classList.remove("checked");
+  }
+  var dark_theme = document.getElementById("dark_theme");
+  dark_theme.onclick = function() {
+    document.body.classList.add("dark-theme");
+    light_theme.classList.remove("checked");
+    dark_theme.classList.add("checked");
+  }
+</script>
