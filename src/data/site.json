@@ -7,7 +7,6 @@
     "resume": "/assets/resume.pdf",
     "nav": [
         {"link": "#skills", "name": "Skills"},
-        {"link": "#work", "name": "Work"},
         {"link": "#footer", "name": "Contact"}
     ],
     "skills": {
