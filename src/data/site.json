@@ -56,10 +56,22 @@
         }
     ],
     "journey": {
+        "2024": [
+            {
+                "title": "Long way to go 🧑‍🦯",
+                "description": "Facing each day as it comes.. will keep you posted!"
+            }
+        ],
+        "2023": [
+            {
+                "title": "New gig and a change of scenary 🚲",
+                "description": "Relocated to new place and started in new company as Senior developer working primarily in Laravel, VueJS and WordPress."
+            }
+        ],
         "2022": [
             {
-                "title": "Long way to go 🥳",
-                "description": "You might think, not much happening right now huh.. wait it's a work in progress!"
+                "title": "Part of Core Development team 🎯",
+                "description": "My department in the first company separates into an independant sister company."
             }
         ],
         "2020": [
